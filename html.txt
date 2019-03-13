@@ -1,0 +1,49 @@
+互联网的三大基石
+    URL：统一资源定位符（唯一的定位一个资源网络）
+    HTTP：超文本传输协议（规范浏览器和服务器之间数据交换格式）
+    HTML:超文本标记语言（有效的组织数据在浏览器显示） 
+<html>
+   <head>
+              <!--head标签中主要配置浏览器的配置信息>
+
+          网页标题标签
+              <title>网页窗口栏标题<title/>
+
+          编码格式标签
+              <meta  charset="utf-8"/><!--网页解析编码格式配置：告诉浏览器使用指定编码格式>>
+              <meta  http-equiv="content-type" content="text/html;charset="utf-8">
+
+           网页搜索优化标签
+              <meta name="keywords" content="HTML,SXT,张老师"><!--网页关键字-->
+              <meta name="description" content="本网页是。。。。。"><!--网页描述-->
+              <meta name="author" content="张老师"/><!---网页作者->
+    
+             网页指定跳转 <meta http-equiv="refresh"刷新 content="5;url=http//www.b.com"/><!--网页自动跳转-->
+
+   <head/>
+
+   <body>
+          <h1 align="center"位置属性：居中>  标题 </h1>
+
+  文本标签
+                <h1>..<h6> 标题标签
+                <hr />会在页面中显示一条水平线，默认居中显示
+                <br/>换行符
+                <p> 段落符
+                 &nbsp  空格符
+                 <b>会将类容加黑
+                 <i></i>会将类容斜体
+                 <u>会将类容增加下划线
+                 <del>会见类容增加中划线
+     列表标签
+         <ul>   无序 标签
+                 <li>  </li>  前面有一个黑点
+         </ul>
+
+         <ol>  有序 列表
+                   <li>   </li>  序号从1开始 并连续
+         </ol>
+                   <type>
+       
+   </body>
+</html>
